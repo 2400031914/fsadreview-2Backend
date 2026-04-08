@@ -9,7 +9,7 @@ import java.util.List;
 
 @Configuration
 public class CorsConfig {
-
+	// validation logic updated
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();

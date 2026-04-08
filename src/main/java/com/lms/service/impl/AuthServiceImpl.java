@@ -155,6 +155,7 @@ public class AuthServiceImpl implements AuthService {
                 .username(user.getUsername())
                 .build();
     }
+    
 
     @Override
     @Transactional(readOnly = true)
