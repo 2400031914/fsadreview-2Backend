@@ -1,0 +1,31 @@
+[33mcommit c2fe12e80ecda93a4df5e42f3eb5676406cb24f1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: 2400031914 <bhimavarapuindrani2007@gmail.com>
+Date:   Wed Apr 8 10:22:19 2026 +0530
+
+    improved validation logic and detailed login error handling
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..653645c[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,18 @@[m
+[32m+[m[32m# Maven[m
+[32m+[m[32mtarget/[m
+[32m+[m
+[32m+[m[32m# Compiled files[m
+[32m+[m[32m*.class[m
+[32m+[m
+[32m+[m[32m# Logs[m
+[32m+[m[32m*.log[m
+[32m+[m
+[32m+[m[32m# Env[m
+[32m+[m[32m.env[m
+[32m+[m
+[32m+[m[32m# IDE[m
+[32m+[m[32m.vscode/[m
+[32m+[m[32m.idea/[m
+[32m+[m
+[32m+[m[32m# OS[m
+[32m+[m[32m.DS_Store[m
+\ No newline at end of file[m
